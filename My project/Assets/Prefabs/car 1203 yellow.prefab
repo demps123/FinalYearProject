@@ -1533,8 +1533,8 @@ MonoBehaviour:
   frontLeftTransform: {fileID: 4899075390073849747}
   backRightTransform: {fileID: 4423626732428193593}
   backLeftTransform: {fileID: 9132733358262314264}
-  acceleration: 500
-  brakingForce: 300
+  acceleration: 50
+  brakingForce: 20
   maxTurnAngle: 15
 --- !u!1 &3553164575596975294
 GameObject:
