@@ -1,0 +1,36 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1650309654",
+        "python_version": "3.7.7 (tags/v3.7.7:d7c567b08f, Mar 10 2020, 10:41:24) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\conor\\Documents\\GitHub\\FinalYearProject\\My project\\virt\\Scripts\\mlagents-learn Assets\\Karting\\Prefabs\\AI\\kart_mg_trainer_config.yaml --run-id=custom-track-1 --resume",
+        "mlagents_version": "0.16.1",
+        "mlagents_envs_version": "0.16.1",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "1.15.2",
+        "end_time_seconds": "1650309688"
+    },
+    "total": 33.2919703,
+    "count": 1,
+    "self": 0.17054020000000492,
+    "children": {
+        "run_training.setup": {
+            "total": 0.005930500000000061,
+            "count": 1,
+            "self": 0.005930500000000061
+        },
+        "TrainerController.start_learning": {
+            "total": 33.1154996,
+            "count": 1,
+            "self": 1.0725922000000025,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 32.0429074,
+                    "count": 1,
+                    "self": 32.0429074
+                }
+            }
+        }
+    }
+}

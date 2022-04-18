@@ -793,7 +793,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1072989153307502827, guid: 60cc83f1f780c4440b1bf9f83b8814fb, type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 1072989153307502827, guid: 60cc83f1f780c4440b1bf9f83b8814fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2979,7 +2979,7 @@ MonoBehaviour:
   selectedRoadRightInnerOffset: 0
   selectedCrossingMaterial: 0
   crossingTextureInfoIndex: 0
-  handleSelection: 1
+  handleSelection: 0
   positionHandleSelection: 1
   markerDirXZ: 0
   defaultCrossing: {fileID: 0}
@@ -41388,7 +41388,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1072989153307502827, guid: 60cc83f1f780c4440b1bf9f83b8814fb, type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 1072989153307502827, guid: 60cc83f1f780c4440b1bf9f83b8814fb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42761,7 +42761,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1072989153307502827, guid: 60cc83f1f780c4440b1bf9f83b8814fb, type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1072989153307502827, guid: 60cc83f1f780c4440b1bf9f83b8814fb, type: 3}
       propertyPath: m_LocalPosition.x
