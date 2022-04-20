@@ -1,8 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TrackCheckpoint : MonoBehaviour {
+
+    public event EventHandler OnPlayerCorrectCheckpoint;
+    public event EventHandler OnPlayerWrongCheckpoint;
 
     private List<CheckpointSingle> checkpointSingleList;
     private int nextCheckpointSingleIndex;
@@ -24,9 +28,11 @@ public class TrackCheckpoint : MonoBehaviour {
         if (checkpointSingleList.IndexOf(checkpointSingle) == nextCheckpointSingleIndex) {
             Debug.Log("Correct");
             nextCheckpointSingleIndex = (nextCheckpointSingleIndex + 1) % checkpointSingleList.Count;
+            OnPlayerCorrectCheckpoint?.Invoke(this, EventArgs.Empty);
         }
         else {
             Debug.Log("Incorrect");
+            OnPlayerWrongCheckpoint?.Invoke(this, EventArgs.Empty);
         }
     }
 }

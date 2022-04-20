@@ -44,10 +44,10 @@ public class Player : MonoBehaviour
         isBreaking = Input.GetKey(KeyCode.Space);
     }
 
-    public void SetInputs(float forwardAmount, float turnAmount)
+    public void SetInputs(float verticalInput, float horizontalInput)
     {
-        this.verticalInput = forwardAmount;
-        this.horizontalInput = turnAmount;
+        this.verticalInput = verticalInput;
+        this.horizontalInput = horizontalInput;
     }
 
     private void HandleMotor()
@@ -88,5 +88,9 @@ public class Player : MonoBehaviour
 ; wheelCollider.GetWorldPose(out pos, out rot);
         wheelTransform.rotation = rot;
         wheelTransform.position = pos;
+    }
+
+    public void StopCompletely() {
+        SetInputs(0f, 0f);
     }
 }
